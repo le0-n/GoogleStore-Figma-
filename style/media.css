@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
-    .container .nav .left .menu {
-        display: none;
+    .container .nav .left {
+        width: 80%;
     }
     .container .nav .left .burger {
         display: block;
@@ -26,6 +26,9 @@
     .container .nav .left img:hover ~ .burger {
         left: 0;
     }
+    .container .content-1 {
+        height: 450px;
+    }
     .container .content-1 .text h1 {
         backdrop-filter: blur(2px);
     }
@@ -49,6 +52,9 @@
     }
     .container .content-3 .right p:nth-child(2) {
         font-size: 14px;
+    }
+    .container .content-4 {
+        margin-top: 10%;
     }
     .container .content-4 .item {
         width: 200px;
@@ -108,6 +114,10 @@
     .container .content-6 .item h3 {
         font-size: 14px;
     }
+    .container .content-7 {
+        position: relative;
+        bottom: 5%;
+    }
     .container .content-7 img {
         width: 50%;
     }
@@ -128,6 +138,10 @@
         align-items: center;
         left: 63%;
     }
+    .container .content-8 {
+        position: relative;
+        bottom: 30%;
+    }
     .container .content-8 h1 {
         font-size: 25px;
     }
@@ -136,6 +150,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .container .content-9 {
+        position: relative;
+        bottom: 50%;
+    }
+    .container .footer {
+        position: relative;
+        bottom: 60%;
     }
     .container .footer .content {
         line-height: 150%;
@@ -208,7 +230,7 @@
     }
     .container .content-1 {
         height: 400px;
-        background-image: url('/-13-/images/content-1-background-425px.png');
+        background-image: url('./content-1-background-425px.png');
     }
     .container .content-1 .text h1 {
         position: relative;
