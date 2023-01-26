@@ -25,12 +25,18 @@
 .container .nav .left {
     width: 55%;
     height: auto;
+    display: flex;
+    gap: 10px;
+}
+.container .nav .left .burger {
+    display: none;
 }
 .container .nav .left ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    gap: 20px;
 }
 .container .nav .left ul li {
     transition: all .2s linear;
