@@ -167,6 +167,7 @@
     }
     .container .content-1 {
         height: 400px;
+        background-image: url('/-13-/images/content-1-background-425px.png');
     }
     .container .content-1 .text h1 {
         position: relative;
