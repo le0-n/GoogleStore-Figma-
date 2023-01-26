@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px) {
+    .container .nav .left {
+        width: 80%;
+    }
+    .container .nav .right {
+        width: 20%;
+    }
+    .container .nav .left ul {
+        font-size: 10px;
+        gap: 3%;
+    }
+    .container .nav .right ul {
+        gap: 5%;
+    }
+    .container .content-1 .text h1 {
+        backdrop-filter: blur(2px);
+    }
+    .container .content-1 .text p {
+        backdrop-filter: blur(2px);
+    }
+    .container .nav .right img {
+        width: 10px;
+    }
+    .container .content-2 ul li:nth-child(4) {
+        margin-top: 10%;
+    }
+    .container .content-2 ul li:nth-child(5) {
+        margin-top: 10%;
+    }
+    .container .content-3 .right {
+        padding: 5%;
+    }
+    .container .content-3 .right h1 {
+        font-size: 30px;
+    }
+    .container .content-3 .right p:nth-child(2) {
+        font-size: 14px;
+    }
+    .container .content-4 .item {
+        width: 200px;
+        height: 350px;
+    }
+    .container .content-4 .item img {
+        width: 150px;
+        top: 13.5%;
+    }
+    .container .content-4 .item p {
+        font-size: 12px;
+    }
+    .container .content-4 .item h1 {
+        font-size: 20px;
+    }
+    .container .content-4 .item h3 {
+        font-size: 12px;
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .content-4 ul:nth-child(2) .item {
+        width: 330px;
+        height: 400px;
+    }
+    .container .content-4 ul:nth-child(2) li:nth-child(2) .item img {
+        width: 330px;
+    }
+    .container .content-4 ul:nth-child(2) li:nth-child(1) .item img {
+        width: 330px;
+    }
+    .container .content-5 .head h1 {
+        font-size: 30px;
+        margin-top: 3%;
+    }
+    .container .content-5 ul li .item:nth-child(3) {
+        margin-top: 3%;
+    }
+    .container .content-5 ul li .item:nth-child(4) {
+        margin-top: 3%;
+    }
+    .container .content-6 ul .item {
+        width: 330px;
+        height: 400px;
+    }
+    .container .content-6 ul .item img {
+        width: 330px;
+    }
+    .container .content-6 ul .item p {
+        font-size: 14px;
+    }
+    .container .content-6 .item h1 {
+        font-size: 25px;
+    }
+    .container .content-6 .item h3 {
+        font-size: 14px;
+    }
+    .container .content-7 img {
+        width: 50%;
+    }
+    .container .content-7 .text h1 {
+        font-size: 35px;
+        padding: 0 10% 0 5%;
+    }
+    .container .content-7 .text p {
+        font-size: 14px;
+        padding: 0 10% 0 5%;
+    }
+    .container .content-7 .text h3 {
+        font-size: 14px;
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 63%;
+    }
+    .container .content-8 h1 {
+        font-size: 25px;
+    }
+    .container .content-8 h3 {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .footer .content {
+        line-height: 150%;
+        font-size: 14px;
+    }
+    .container .footer .bottom ul {
+        font-size: 10px;
+    }
+    .container .footer .bottom ul:nth-child(1) {
+        gap: 1%;
+        width: 20%;
+    }
+    .container .footer .bottom ul:nth-child(1) li img {
+        width: 70%;
+    }
+    .container .footer .bottom ul:nth-child(2) {
+        width: 80%;
+        gap: 3%;
+        
+    }
+}
