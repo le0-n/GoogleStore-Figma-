@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    .container .nav .left .menu {
+        display: none;
+    }
     .container .nav .left {
         width: 80%;
     }
@@ -18,7 +21,6 @@
         border-top-right-radius: 50%;
         font-size: 20px;
         font-weight: 300;
-        box-shadow: 0 0 10px aqua;
         background: linear-gradient(white 20%, aqua 100%);
         transition: all .3s linear;
         cursor: pointer;
